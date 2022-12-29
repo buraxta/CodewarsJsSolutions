@@ -1,5 +1,5 @@
-// The code in this file requires the contents of the file: string_functions.js, that is in the same directory as the current file. Use the import * as syntax to import everything from the file into an object called stringFunctions.
-import * as stringFunctions from "./string_functions.js";
-import * as stringFunctions from "./math_functions.js";
+//Create a single regex that matches a range of letters between h and s, and a range of numbers between 2 and 6. Remember to include the appropriate flags in the regex.
 
-// Only change code above this line
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
