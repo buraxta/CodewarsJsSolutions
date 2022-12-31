@@ -1,4 +1,7 @@
-//Use lookaheads in the pwRegex to match passwords that are greater than 5 characters long, and have two consecutive digits.
-let sampleWord = "astronaut";
-let pwRegex = /(?=\w{5,})(?=\D*\d{2})/; // Change this line
-let result = pwRegex.test(sampleWord);
+//Write a regex and use the appropriate string methods to remove whitespace at the beginning and end of strings.
+
+//Note: The String.prototype.trim() method would work here, but you'll need to complete this challenge using regular expressions.
+let hello = "   Hello, World!  ";
+let wsRegex = /change/; // Change this line
+let result = hello; // Change this line
+
