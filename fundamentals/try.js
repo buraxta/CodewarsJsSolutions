@@ -5,4 +5,4 @@ let varOne = myFunction;
 let varTwo = myFunction();
 
 let x = varOne();
-console.log(x); // You rock!
+console.log(x); 
